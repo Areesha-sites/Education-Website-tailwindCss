@@ -30,7 +30,7 @@ const Testimonial = () => {
           <h1 className="font-semibold italic py-2 text-2xl text-purple-700 ">
             Areesha
           </h1>
-          <p className="max-w-4xl text-center py-2 text-gray-900">
+          <p className="max-w-4xl text-center py-2 text-gray-950 md:text-black">
             <i>Our Students</i> success is our top priority. Each testimonial
             you see here reflects the hard work, dedication, and growth od
             individuals who have taken our courses. These stories are proof of

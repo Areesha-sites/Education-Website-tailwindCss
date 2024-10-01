@@ -23,7 +23,7 @@ const About = () => {
                 From Anywhere
                 <BookOpenIcon className="ml-2 text-purple-600" size={32} />
               </h1>
-              <p className="py-1 text-centertext-gray-950 md:text-black text-gray-900 pr-9">
+              <p className="py-1 text-center text-gray-950 md:text-black pr-9">
                 Empower yourself with the flexibility to learn at your own pace,
                 from any corner of the world. Our online couses are designed to
                 fit seamlessly into your busy life, allowing you to acquire new

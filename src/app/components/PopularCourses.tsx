@@ -41,7 +41,9 @@ const PopularCourses = () => {
               <h3 className="text-2xl font-bold text-purple-700 italic mb-2">
                 {course.title}
               </h3>
-              <p className="text-gray-800 mb-4">{course.description}</p>
+              <p className="text-gray-950 md:text-black mb-4">
+                {course.description}
+              </p>
               <div className="flex justify-between items-center">
                 <span className=" inline-block rounded-full py-1 px-3 text-purple-700 font-semibold   bg-purple-100 shadow-lg shadow-purple-300 ">
                   {course.duration}

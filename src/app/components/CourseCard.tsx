@@ -42,7 +42,7 @@ const CourseCard = () => {
       {courses.map((course, index) => (
         <div
           key={index}
-          className="max-w-sm mx-auto bg-purple-100 shadow-lg rounded-3xl overflow-hidden hover:scale-105 transition-all duration-300 cursor-pointer "
+          className="max-w-sm mx-auto bg-purple-100 shadow-lg shadow-purple-400 rounded-3xl overflow-hidden hover:scale-105 transition-all duration-300 cursor-pointer "
         >
           <Image
             src={course.imgSrc}
@@ -55,12 +55,14 @@ const CourseCard = () => {
             <h3 className="text-xl font-bold text-purple-700 mb-2">
               {course.title}
             </h3>
-            <p className="text-gray-800 mb-4">{course.description}</p>
+            <p className="text-gray-950 md:text-black mb-4">
+              {course.description}
+            </p>
             <div className="flex justify-between items-center">
               <span className=" inline-block rounded-full py-1 px-3 text-purple-700 font-semibold   bg-purple-100 shadow-lg shadow-purple-300 ">
                 {course.duration}
               </span>
-              <span className="text-gray-500 font-semibold">
+              <span className="text-gray-600 font-semibold">
                 {course.level}
               </span>
             </div>

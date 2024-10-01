@@ -17,7 +17,7 @@ const Contact = () => {
               />{" "}
             </span>
           </h2>
-          <p className="mt-4 text-lg text-gray-900">
+          <p className="mt-4 text-lg  text-gray-950 md:text-black">
             Have questions about our courses or need assistance? We are here to
             help! Reach out to us through form below, and we will get back to
             you as soon as possible. 💬

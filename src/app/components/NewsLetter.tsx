@@ -10,10 +10,10 @@ const NewsLetter = () => {
             <h2 className="mb-4 text-5xl tracking-tight font-bold text-gray-900 sm:text-4xl">
               Sign Up For Our{" "}
               <span className="text-purple-700 ">
-                News Letter <div className="inline-block text-3xl"> 📰</div>
+                News Letter <div className="inline-block text-3xl">📰</div>
               </span>
             </h2>
-            <p className="mx-auto mb-8 max-w-2xl font-light text-gray-900 md:mb-12 sm:text-lg ">
+            <p className="mx-auto mb-8 max-w-2xl font-light  text-gray-950 md:text-black md:mb-12 sm:text-lg ">
               Stay updated with the latest courses, expert tips, and special
               offers. Sign up for our newsletter to enhance your learning
               journey and never miss our on exciting oppertunities.📬
