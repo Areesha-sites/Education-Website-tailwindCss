@@ -19,7 +19,7 @@ const Classes = () => {
         <h1 className="font-semibold text-5xl py-4 text-gray-900 ">
           Explore the world best
           <span className="text-purple-700 flex">
-            Courses <FaGlobe size={30} className="mt-3 ml-2"></FaGlobe>
+            Courses <FaGlobe size={30} className="mt-3 ml-2" />
           </span>
         </h1>
         <p className="max-w-lg mx-auto text-gray-600">
@@ -77,7 +77,7 @@ const Classes = () => {
             aria-labelledby="tab-1"
             className={activeTab === 1 ? "" : "hidden"}
           >
-            <CourseCard></CourseCard>
+            <CourseCard />
           </div>
           {/* ============================ */}
           <div
@@ -86,7 +86,7 @@ const Classes = () => {
             aria-labelledby="tab-2"
             className={activeTab === 2 ? "" : "hidden"}
           >
-            <PopularCourses></PopularCourses>
+            <PopularCourses />
           </div>
           {/* ============================ */}
           <div
@@ -95,7 +95,7 @@ const Classes = () => {
             aria-labelledby="tab-3"
             className={activeTab === 3 ? "" : "hidden"}
           >
-            <Testimonial></Testimonial>
+            <Testimonial />
           </div>
         </div>
       </div>

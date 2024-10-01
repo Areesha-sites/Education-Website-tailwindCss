@@ -14,7 +14,7 @@ const Contact = () => {
               <UserPenIcon
                 className="ml-2 mb-3 inline-block text-3xl"
                 size={34}
-              ></UserPenIcon>{" "}
+              />{" "}
             </span>
           </h2>
           <p className="mt-4 text-lg text-gray-600">
