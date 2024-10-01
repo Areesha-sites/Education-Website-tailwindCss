@@ -3,7 +3,7 @@ import NewsLetter from "../components/NewsLetter";
 function Newsletter() {
   return (
     <>
-      <NewsLetter></NewsLetter>
+      <NewsLetter />
     </>
   );
 }

@@ -11,12 +11,7 @@ const About = () => {
         <div className="container">
           <div className="py-8 px-4 mx-auto max-w-screen-2xl lg:py-6 lg:px-6 grid grid-cols-1 md:grid-cols-2 gap-2  ">
             <div className="">
-              <Image
-                src="/MAIN-IMAGE.png"
-                alt=""
-                height={550}
-                width={550}
-              ></Image>
+              <Image src="/MAIN-IMAGE.png" alt="" height={550} width={550} />
             </div>
             <div className="lg:ps-0  mt-16">
               <p className=" inline-block rounded-full py-1 px-3 text-purple-700 font-semibold   bg-purple-100 shadow-lg shadow-purple-300 ">
@@ -26,10 +21,7 @@ const About = () => {
                 Learn & Grow Your{" "}
                 <span className="text-purple-700">SKILLS </span>
                 From Anywhere
-                <BookOpenIcon
-                  className="ml-2 text-purple-600"
-                  size={32}
-                ></BookOpenIcon>
+                <BookOpenIcon className="ml-2 text-purple-600" size={32} />
               </h1>
               <p className="py-1 text-center pr-9">
                 Empower yourself with the flexibility to learn at your own pace,
@@ -103,7 +95,7 @@ const About = () => {
                 </div>
                 <div className="flex justify-center md:justify-start">
                   <Button className="bg-purple-700 text-white px-3 py-1 mt-10 mr-11 relative -left-52 rounded-md hover:scale-105 hover:font-bold text-sm font-semibold leading-6  duration-300 transition-transform hover:bg-white hover:text-purple-700 flex justify-center items-center mx-auto md:mx-0 ">
-                    Learn More <MoveRightIcon className="ml-2"></MoveRightIcon>
+                    Learn More <MoveRightIcon className="ml-2" />
                   </Button>
                 </div>
               </div>
@@ -113,7 +105,7 @@ const About = () => {
           <div className="mt-11 gap-7 ml-11">
             <h2 className=" text-3xl font-bold text-purple-800 flex justify-center items-center mb-7">
               Our Achievements
-              <AwardIcon className="text-purple-700" size={34}></AwardIcon>
+              <AwardIcon className="text-purple-700" size={34} />
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 ml-0 mt-4 mb-5 md:ml-20 md:text-left">
               <div className="text-center">
@@ -132,7 +124,7 @@ const About = () => {
               </div>
             </div>
           </div>
-          <TeamSection></TeamSection>
+          <TeamSection />
         </div>
       </div>
     </>
