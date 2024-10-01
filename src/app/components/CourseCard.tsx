@@ -47,6 +47,8 @@ const CourseCard = () => {
           <Image
             src={course.imgSrc}
             alt={course.title}
+            height={200}
+            width={200}
             className="w-full h-28 object-contain "
           />
           <div className="p-6">

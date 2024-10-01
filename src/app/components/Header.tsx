@@ -137,7 +137,7 @@ export default function Header() {
                     About Us
                   </Link>
                   <Link
-                    href="/classes"
+                    href="/courses"
                     className="text-sm font-semibold leading-6 text-gray-900 hover:border-b-2 hover:border-b-[#7E60BF] transition duration-300"
                     onClick={() => setMobileMenuOpen(false)}
                   >

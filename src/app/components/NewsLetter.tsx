@@ -9,8 +9,8 @@ const NewsLetter = () => {
           <div className="mx-auto max-w-screen-md sm:text-center pt-20">
             <h2 className="mb-4 text-5xl tracking-tight font-bold text-gray-900 sm:text-4xl">
               Sign Up For Our{" "}
-              <span className="text-purple-700  ">
-                NewsLetter <div className="inline-block text-3xl"> 📰</div>
+              <span className="text-purple-700 ">
+                News Letter <div className="inline-block text-3xl"> 📰</div>
               </span>
             </h2>
             <p className="mx-auto mb-8 max-w-2xl font-light text-gray-700 md:mb-12 sm:text-lg ">

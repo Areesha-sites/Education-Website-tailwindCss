@@ -36,7 +36,7 @@ const Testimonial = () => {
             individuals who have taken our courses. These stories are proof of
             the transformative impact our programs have on careers, skills, and
             personal development. We hbelieve in nurturing potential, and our
-            students achievements inspire us to keep delivering the bezt
+            students achievements inspire us to keep delivering the best
             educational experience possible. ⋆｡°✩
           </p>
 

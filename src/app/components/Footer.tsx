@@ -6,8 +6,8 @@ import { FaLinkedinIn } from "react-icons/fa6";
 const Footer = () => {
   return (
     <>
-      <footer className=" bg-purple-100  shadow-md text-gray-800 py-8 pb-9">
-        <div className="container mx-auto  justify-between items-center">
+      <footer className=" bg-purple-100 shadow-md text-gray-800 py-8 pb-9">
+        <div className="container mx-auto justify-between items-center">
           <div className="mb-4 sm:mb-0 ml-6">
             <Image
               src="/logo.png"
@@ -16,12 +16,12 @@ const Footer = () => {
               height={50}
             ></Image>
           </div>
-          <div className="flex flex-col  justify-center items-center gap-5">
+          <div className="flex flex-col justify-center items-center gap-5">
             <div className="text-center mb-4 sm:mb-0">
               <h3 className="text-2xl text-purple-700 font-semibold">
                 Quick Links
               </h3>
-              <ul className="mt-2 flex justify-between items-center space-x-9">
+              <ul className="mt-2 flex justify-between items-center space-x-5">
                 <li className="">
                   {" "}
                   <Link
@@ -42,10 +42,10 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    href="/classes"
+                    href="/courses"
                     className="text-sm font-semibold leading-6 text-purple-700 hover:border-b-2 hover:border-purple-400 transition duration-300"
                   >
-                    Classes
+                    Courses
                   </Link>
                 </li>
 

@@ -31,7 +31,7 @@ const Classes = () => {
 
         <nav className="flex space-x-10 mt-6" role="tablist">
           <button
-            className={`text-sm font-semibold leading-6 text-purple-700 hover:border-b-2 hover:border-purple-400 transition duration-300${
+            className={`text-white bg-purple-700 hover:bg-purple-100 focus:outline-none hover:text-purple-700 focus:ring-purple-300 font-medium transition-all hover:hover:scale-110 rounded-full text-sm px-5 py-2.5 text-center mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900"${
               activeTab === 1 ? "active:text-gray-800" : ""
             }`}
             role="tab"
@@ -44,7 +44,7 @@ const Classes = () => {
             All Courses
           </button>
           <button
-            className={`text-sm font-semibold leading-6 text-purple-700 hover:border-b-2 hover:border-purple-400 transition duration-300${
+            className={`text-white bg-purple-700 transition-all hover:hover:scale-110 hover:text-purple-700  hover:bg-purple-100 focus:outline-none focus:ring-4 focus:ring-purple-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900${
               activeTab === 2 ? "active:text-gray-800" : ""
             }`}
             role="tab"
@@ -56,7 +56,7 @@ const Classes = () => {
             Popular Courses
           </button>
           <button
-            className={`text-sm font-semibold leading-6 text-purple-700 hover:border-b-2 hover:border-purple-400 transition duration-300${
+            className={`text-white bg-purple-700 transition-all hover:hover:scale-110 hover:text-purple-700  hover:bg-purple-100 focus:outline-none focus:ring-4 focus:ring-purple-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900${
               activeTab === 3 ? "active:text-gray-800" : ""
             }`}
             role="tab"

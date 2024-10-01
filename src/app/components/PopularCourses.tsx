@@ -46,7 +46,7 @@ const PopularCourses = () => {
                 <span className=" inline-block rounded-full py-1 px-3 text-purple-700 font-semibold   bg-purple-100 shadow-lg shadow-purple-300 ">
                   {course.duration}
                 </span>
-                <span className="text-yellow-500 text-2xl">
+                <span className="text-yellow-500 text-xl">
                   {"★".repeat(Math.round(course.rating))}
                 </span>
               </div>
