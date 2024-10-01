@@ -26,12 +26,12 @@ const Banner = () => {
                 </span>
               </h1>
               <p className="py-1 ">
-                "Unlock your potential and enhance your skills with a wide range
-                of online course designed by industry experts. Whether You're a
+                Unlock your potential and enhance your skills with a wide range
+                of online course designed by industry experts. Whether You are a
                 beginner or looking to upgrade your Knowledge, our flexible and
                 accessible learning platform empowers you to learn at your own
                 pace, anytime and anywhere. Join Thousands of learners and take
-                the next step in your personal and professional growth today."📚{" "}
+                the next step in your personal and professional growth today.📚{" "}
                 <br />
                 <b>
                   <i>

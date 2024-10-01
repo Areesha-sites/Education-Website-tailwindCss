@@ -23,10 +23,10 @@ const Classes = () => {
           </span>
         </h1>
         <p className="max-w-lg mx-auto text-gray-600">
-          "Discover top Courses from leading experts around the world. Expand
+          Discover top Courses from leading experts around the world. Expand
           your Knowledge, gain new skills, and take your career to the next
           level with our comprehensive and flexible learning programs, available
-          to you no matter where you are" ☆
+          to you no matter where you are ☆
         </p>
 
         <nav className="flex space-x-10 mt-6" role="tablist">

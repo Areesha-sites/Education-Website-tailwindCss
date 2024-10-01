@@ -14,9 +14,9 @@ const NewsLetter = () => {
               </span>
             </h2>
             <p className="mx-auto mb-8 max-w-2xl font-light text-gray-700 md:mb-12 sm:text-lg ">
-              "Stay updated with the latest courses, expert tips, and special
+              Stay updated with the latest courses, expert tips, and special
               offers. Sign up for our newsletter to enhance your learning
-              journey and never miss our on exciting oppertunities."📬
+              journey and never miss our on exciting oppertunities.📬
             </p>
             <form action="#">
               <div className="items-center mx-auto mb-3 space-y-4 max-w-screen-sm sm:flex sm:space-y-0">

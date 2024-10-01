@@ -32,12 +32,12 @@ const About = () => {
                 ></BookOpenIcon>
               </h1>
               <p className="py-1 text-center pr-9">
-                "Empower yourself with the flexibility to learn at your own
-                pace, from any corner of the world. Our online couses are
-                designed to fit seamlessly into your busy life, allowing you to
-                acquire new skills and grow professionally without boundries.
-                Whether you're at home, at work, or on the go, access expert-led
-                courses anytime, anywhere, and take control of your future."💡
+                Empower yourself with the flexibility to learn at your own pace,
+                from any corner of the world. Our online couses are designed to
+                fit seamlessly into your busy life, allowing you to acquire new
+                skills and grow professionally without boundries. Whether you
+                are at home, at work, or on the go, access expert-led courses
+                anytime, anywhere, and take control of your future.💡
               </p>
 
               <div className="mt-5">

@@ -31,13 +31,13 @@ const Testimonial = () => {
             Areesha
           </h1>
           <p className="max-w-4xl text-center py-2 text-gray-900">
-            "<i>Our Students'</i> success is our top priority. Each testimonial
+            <i>Our Students</i> success is our top priority. Each testimonial
             you see here reflects the hard work, dedication, and growth od
             individuals who have taken our courses. These stories are proof of
             the transformative impact our programs have on careers, skills, and
             personal development. We hbelieve in nurturing potential, and our
-            students' achievements inspire us to keep delivering the bezt
-            educational experience possible. "⋆｡°✩
+            students achievements inspire us to keep delivering the bezt
+            educational experience possible. ⋆｡°✩
           </p>
 
           <div className="mt-10 flex items-center justify-center gap-x-6">
