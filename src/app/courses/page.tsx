@@ -7,7 +7,7 @@ import PopularCourses from "../components/PopularCourses";
 import Testimonial from "../components/Testimonial";
 const Classes = () => {
   const [activeTab, setActiveTab] = useState(1);
-  const handleTabClick = (tabIndex: any) => {
+  const handleTabClick = (tabIndex: number) => {
     setActiveTab(tabIndex);
   };
   return (
