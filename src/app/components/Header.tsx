@@ -53,7 +53,7 @@ export default function Header() {
               About Us
             </Link>
             <Link
-              href="/classes"
+              href="/courses"
               className="text-sm font-semibold leading-6 text-purple-700 hover:border-b-2 hover:border-purple-400 transition duration-300"
             >
               Courses

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { FaClipboardCheck } from "react-icons/fa";
+import Image from "next/image";
 const CourseCard = () => {
   const courses = [
     {
@@ -43,7 +44,7 @@ const CourseCard = () => {
           key={index}
           className="max-w-sm mx-auto bg-purple-100 shadow-lg rounded-3xl overflow-hidden hover:scale-105 transition-all duration-300 cursor-pointer "
         >
-          <img
+          <Image
             src={course.imgSrc}
             alt={course.title}
             className="w-full h-28 object-contain "
