@@ -25,7 +25,7 @@ const Banner = () => {
                   ></GraduationCapIcon>{" "}
                 </span>
               </h1>
-              <p className="py-1 ">
+              <p className="py-1 text-gray-900 md:text-black">
                 Unlock your potential and enhance your skills with a wide range
                 of online course designed by industry experts. Whether You are a
                 beginner or looking to upgrade your Knowledge, our flexible and

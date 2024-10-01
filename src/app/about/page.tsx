@@ -23,7 +23,7 @@ const About = () => {
                 From Anywhere
                 <BookOpenIcon className="ml-2 text-purple-600" size={32} />
               </h1>
-              <p className="py-1 text-center pr-9">
+              <p className="py-1 text-center text-gray-900 pr-9">
                 Empower yourself with the flexibility to learn at your own pace,
                 from any corner of the world. Our online couses are designed to
                 fit seamlessly into your busy life, allowing you to acquire new
@@ -36,7 +36,7 @@ const About = () => {
                 <h3 className="text-xl font-bold text-purple-700 text-center">
                   Our Mission
                 </h3>
-                <p className="mt-2 text-gray-500">
+                <p className="mt-2 text-gray-700">
                   To provide accessible, high-quality online education that
                   empowers individuals to achieve their goals and excel in their
                   careers.
@@ -93,7 +93,7 @@ const About = () => {
                     </label>
                   </div>
                 </div>
-                <div className="flex justify-center md:justify-start">
+                <div className="flex justify-center md:justify-start mt-10">
                   <Button className="bg-purple-700 text-white px-3 py-1 mt-10 mr-11 relative -left-52 rounded-md hover:scale-105 hover:font-bold text-sm font-semibold leading-6  duration-300 transition-transform hover:bg-white hover:text-purple-700 flex justify-center items-center mx-auto md:mx-0 ">
                     Learn More <MoveRightIcon className="ml-2" />
                   </Button>
@@ -102,7 +102,7 @@ const About = () => {
             </div>
           </div>
 
-          <div className="mt-11 gap-7 ml-11">
+          <div className="mt-11 gap-7 ml-5">
             <h2 className=" text-3xl font-bold text-purple-800 flex justify-center items-center mb-7">
               Our Achievements
               <AwardIcon className="text-purple-700" size={34} />
