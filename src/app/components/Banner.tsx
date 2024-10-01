@@ -35,8 +35,8 @@ const Banner = () => {
                 <br />
                 <b>
                   <i>
-                    "Learning never stops, and neither should your journey to
-                    success." ♡
+                    Learning never stops, and neither should your journey to
+                    success. ♡
                   </i>
                 </b>
               </p>
