@@ -70,7 +70,9 @@ const Testimonial = () => {
             </div>
             <div className="boder-none sm:border-l-2 border-black sm:pl-8">
               <div className="flex justify-center sm:justify-start">
-                <h3 className="text-3xl font-semibold mr-2">4.6</h3>
+                <h3 className="text-3xl font-semibold text-gray-900 mr-2">
+                  4.6
+                </h3>
                 <i className="bx bxs-star w-5 text-yellow-400"></i>
               </div>
             </div>

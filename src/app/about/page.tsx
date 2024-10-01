@@ -23,7 +23,7 @@ const About = () => {
                 From Anywhere
                 <BookOpenIcon className="ml-2 text-purple-600" size={32} />
               </h1>
-              <p className="py-1 text-center text-gray-900 pr-9">
+              <p className="py-1 text-centertext-gray-950 md:text-black text-gray-900 pr-9">
                 Empower yourself with the flexibility to learn at your own pace,
                 from any corner of the world. Our online couses are designed to
                 fit seamlessly into your busy life, allowing you to acquire new
@@ -33,17 +33,17 @@ const About = () => {
               </p>
 
               <div className="mt-5">
-                <h3 className="text-xl font-bold text-purple-700 text-center">
-                  Our Mission
+                <h3 className="text-3xl font-bold text-purple-700 text-center">
+                  <i> Our Mission</i>
                 </h3>
-                <p className="mt-2 text-gray-700">
+                <p className="mt-2 text-gray-800">
                   To provide accessible, high-quality online education that
                   empowers individuals to achieve their goals and excel in their
                   careers.
                 </p>
               </div>
               <div className="flex mt-5">
-                <div className="flex items-center h-5  ">
+                <div className="flex items-center h-5 ml-7">
                   <input type="checkbox" className="h-4 w-4 "></input>
                   <div className="ms-2 text-xl">
                     <label
@@ -56,12 +56,12 @@ const About = () => {
                 </div>
               </div>
               <div className="flex mt-5">
-                <div className="flex items-center h-5  ">
+                <div className="flex items-center h-5 ml-7 ">
                   <input type="checkbox" className="h-4 w-4 "></input>
                   <div className="ms-2 text-xl">
                     <label
                       htmlFor="helper-checkbox"
-                      className="font-medium text-gray-900 text-xl    "
+                      className="font-medium text-gray-900 text-xl"
                     >
                       Collaborative Culture
                     </label>
@@ -69,7 +69,7 @@ const About = () => {
                 </div>
               </div>
               <div className="flex mt-5">
-                <div className="flex items-center h-5 ">
+                <div className="flex items-center h-5 ml-7 ">
                   <input type="checkbox" className="h-4 w-4 "></input>
                   <div className="ms-2 text-xl">
                     <label
@@ -82,7 +82,7 @@ const About = () => {
                 </div>
               </div>
               <div className="flex mt-5">
-                <div className="flex items-center h-5 ">
+                <div className="flex items-center h-5 ml-7 ">
                   <input type="checkbox" className="h-4 w-4 "></input>
                   <div className="ms-2 text-xl pt-4">
                     <label
@@ -93,7 +93,7 @@ const About = () => {
                     </label>
                   </div>
                 </div>
-                <div className="flex justify-center md:justify-start mt-10">
+                <div className="flex justify-center md:justify-start mt-5">
                   <Button className="bg-purple-700 text-white px-3 py-1 mt-10 mr-11 relative -left-52 rounded-md hover:scale-105 hover:font-bold text-sm font-semibold leading-6  duration-300 transition-transform hover:bg-white hover:text-purple-700 flex justify-center items-center mx-auto md:mx-0 ">
                     Learn More <MoveRightIcon className="ml-2" />
                   </Button>
@@ -104,23 +104,23 @@ const About = () => {
 
           <div className="mt-11 gap-7 ml-5">
             <h2 className=" text-3xl font-bold text-purple-800 flex justify-center items-center mb-7">
-              Our Achievements
+              <i> Our Achievements</i>
               <AwardIcon className="text-purple-700" size={34} />
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 ml-0 mt-4 mb-5 md:ml-20 md:text-left">
               <div className="text-center">
                 <h3 className="text-3xl font-bold text-purple-600 ">500+</h3>
-                <p className="text-base text-gray-500 mr-5">
+                <p className="text-base text-gray-600 mr-5">
                   Courses Available
                 </p>
               </div>
               <div className="text-center">
                 <h3 className="text-3xl font-bold text-purple-600 ">100%</h3>
-                <p className="text-base text-gray-500">Student Satisfaction</p>
+                <p className="text-base text-gray-600 ">Student Satisfaction</p>
               </div>
               <div className="text-center">
                 <h3 className="text-3xl font-bold text-purple-600 ">10,000+</h3>
-                <p className="text-base text-gray-500">Student Enrolled</p>
+                <p className="text-base text-gray-600 ">Student Enrolled</p>
               </div>
             </div>
           </div>

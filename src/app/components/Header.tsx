@@ -11,7 +11,7 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <div className="bg-gradient-to-tl from-fuchsia-100 to-slate-50 pt-0 mt-8 ">
+    <div className="bg-purple-100  pt-0 mt-8 ">
       <header className="absolute top-0 left-0 w-full bg-purple-100 z-50 shadow-md">
         <nav
           aria-label="Global"

@@ -23,8 +23,8 @@ const PopularCourses = () => {
 
   return (
     <div className="p-6">
-      <h2 className="text-4xl font-bold mb-10 text-center text-purple-700">
-        Popular Courses
+      <h2 className="text-4xl font-bold mb-5 text-center text-purple-700">
+        <i> Popular Courses</i>
       </h2>
       <div className="py-8 px-4 mx-auto max-w-screen-2xl lg:py-6 lg:px-6 grid grid-cols-1 md:grid-cols-2 gap-5 ">
         {popularCourses.map((course, index) => (
@@ -41,7 +41,7 @@ const PopularCourses = () => {
               <h3 className="text-2xl font-bold text-purple-700 italic mb-2">
                 {course.title}
               </h3>
-              <p className="text-gray-600 mb-4">{course.description}</p>
+              <p className="text-gray-800 mb-4">{course.description}</p>
               <div className="flex justify-between items-center">
                 <span className=" inline-block rounded-full py-1 px-3 text-purple-700 font-semibold   bg-purple-100 shadow-lg shadow-purple-300 ">
                   {course.duration}

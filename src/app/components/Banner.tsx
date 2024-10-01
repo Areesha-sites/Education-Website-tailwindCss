@@ -11,11 +11,11 @@ const Banner = () => {
           <div className=" py-8 px-4 mx-auto max-w-screen-2xl lg:py-6 lg:px-6 grid grid-cols-1 md:grid-cols-2 gap-2">
             {/* ========Left Section========= */}
             <div>
-              <p className=" inline-block rounded-full py-1 px-3 text-purple-700 font-semibold   bg-purple-100 shadow-lg shadow-purple-300 ">
+              <p className=" inline-block rounded-full py-1 px-3 text-purple-700 font-semibold bg-purple-100 shadow-lg shadow-purple-400 ">
                 Feed Your Knowledge
               </p>
-              <h1 className="font-semibold text-6xl py-4 text-gray-900 ">
-                Develop Your skills with online
+              <h1 className="font-bold text-6xl py-4 text-gray-900 ">
+                Develop your skills with online
                 <br />
                 <span className="text-purple-700 flex items-center">
                   Courses
@@ -25,7 +25,7 @@ const Banner = () => {
                   ></GraduationCapIcon>{" "}
                 </span>
               </h1>
-              <p className="py-1 text-gray-900 md:text-black">
+              <p className="py-1 text-gray-950 md:text-black font-medium">
                 Unlock your potential and enhance your skills with a wide range
                 of online course designed by industry experts. Whether You are a
                 beginner or looking to upgrade your Knowledge, our flexible and

@@ -19,7 +19,7 @@ const Footer = () => {
           <div className="flex flex-col justify-center items-center gap-5">
             <div className="text-center mb-4 sm:mb-0">
               <h3 className="text-2xl text-purple-700 font-semibold">
-                Quick Links
+                <i> Quick Links</i>
               </h3>
               <ul className="mt-2 flex justify-between items-center space-x-5">
                 <li className="">

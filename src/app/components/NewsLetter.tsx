@@ -13,7 +13,7 @@ const NewsLetter = () => {
                 News Letter <div className="inline-block text-3xl"> 📰</div>
               </span>
             </h2>
-            <p className="mx-auto mb-8 max-w-2xl font-light text-gray-700 md:mb-12 sm:text-lg ">
+            <p className="mx-auto mb-8 max-w-2xl font-light text-gray-900 md:mb-12 sm:text-lg ">
               Stay updated with the latest courses, expert tips, and special
               offers. Sign up for our newsletter to enhance your learning
               journey and never miss our on exciting oppertunities.📬

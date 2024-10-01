@@ -47,15 +47,15 @@ const CourseCard = () => {
           <Image
             src={course.imgSrc}
             alt={course.title}
-            height={200}
-            width={200}
+            height={300}
+            width={300}
             className="w-full h-28 object-contain "
           />
           <div className="p-6">
             <h3 className="text-xl font-bold text-purple-700 mb-2">
               {course.title}
             </h3>
-            <p className="text-gray-600 mb-4">{course.description}</p>
+            <p className="text-gray-800 mb-4">{course.description}</p>
             <div className="flex justify-between items-center">
               <span className=" inline-block rounded-full py-1 px-3 text-purple-700 font-semibold   bg-purple-100 shadow-lg shadow-purple-300 ">
                 {course.duration}

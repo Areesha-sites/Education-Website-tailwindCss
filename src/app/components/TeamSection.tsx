@@ -27,7 +27,7 @@ const TeamSection = () => {
       <section className="py-10 bg-gradient-to-tr from-purple-200 to-purple-300">
         <div className="container mx-auto text-center bg-gradient-to-tr from-purple-200 to-purple-300 ">
           <h2 className="text-3xl font-bold text-purple-800 mb-5">
-            Meet Our Team💜
+            <i> Meet Our Team💜</i>
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
             {teamMembers.map((member, index) => (
@@ -42,10 +42,10 @@ const TeamSection = () => {
                   height={200}
                   className=" w-full h-auto"
                 />
-                <h3 className="text-xl font-semibold mt-3 text-purple-950">
+                <h3 className="text-xl font-semibold mt-3 text-purple-700">
                   {member.name}
                 </h3>
-                <p className="text-gray-600">{member.position}</p>
+                <p className="text-gray-700">{member.position}</p>
                 <p className="mt-2 text-gray-700">{member.bio}</p>
               </div>
             ))}
